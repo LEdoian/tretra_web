@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+        <name>Tretra</name>
+        <creationDate>30.12.2012</creationDate>
+        <author>TAP9701</author>
+        <authorEmail>tap9701@gmail.com</authorEmail>
+        <authorUrl>http://ledoian.bluefile.cz</authorUrl>
+        <copyright>None</copyright>
+        <license>CC 3.0 Atribution</license>
+        <version>0.0.1</version>
+        <description>Template for Tretra Praha</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+		<folder>css</folder>
+        </files>
+</extension>

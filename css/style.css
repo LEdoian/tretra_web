@@ -1,0 +1,262 @@
+body{
+	background-image:url(bg.png);
+}
+.all{
+	margin:auto;
+	width:1000px;
+	height:auto;
+	min-height:2000px;
+	padding:0px;
+	overflow:auto;
+	background-color:aqua;/*test*/
+	clip:auto;
+}
+.header{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:1000px;
+	height:444px;
+	/*min-height:444px;*/
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:blue;/*test*/
+}
+.logo{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:706px;
+	height:444px;
+	padding:0px;
+	margin:0px;
+	z-index:1;
+	overflow:auto;
+	background-color:yellow;/*test*/
+}
+.login{
+	position:absolute;
+	left:646px;
+	top:0px;
+	width:354px;
+	height:52px;
+	padding:0px;
+	margin:0px;
+	z-index:2;
+	overflow:auto;
+	background-color:lime;/*test*/
+}
+.menu{
+	position:absolute;
+	left:706px;
+	top:52px;
+	width:294px;
+	min-height:392px;
+	padding:0px;
+	margin:0px;
+	z-index:2;
+	overflow:auto;
+	background-color:red;/*test*/
+}
+	.menu ul li{
+		background-color:navy;/*test*/
+		text-align:right;
+		list-style-type:none;
+		overflow:auto;
+	}
+.content{
+	position:relative;
+	left:0px;
+	top:0px;
+	margin:auto;
+	padding:0px;
+	width:1000px;
+	height:auto;
+	min-height:1750px;
+	overflow:auto;
+	background-color:orange;/*test*/
+	clip:auto;
+}
+.left{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:706px;
+	height:auto;
+	min-height:1500px;
+	/*width:706px;*/
+	/*min-height:1000px;*/
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:purple;/*test*/
+	clip:auto;
+}
+.title{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:706px;
+	min-height:48px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:brown;/*test*/
+}
+.aktuality{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:706px;
+	min-height:206px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:fuchsia;/*test*/
+}
+.akt_nahore{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:706px;
+	height:69px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:gold;/*test*/
+}
+.akt_stred{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:706px;
+	min-height:99px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#00ff7f;/*test*/
+}
+.akt_left{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:51px;
+	min-height:99px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#adff2f;/*test*/
+}
+.akt_ohyb_UL{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:51px;
+	height:13px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:green;/*test*/
+}
+.akt_left_stred{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:51px;
+	min-height:77px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#8a2be2;/*test*/
+}
+.akt_ohyb_LL{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:51px;
+	height:9px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#ff83fa;/*test*/
+}
+.akt_obsah{
+	position:absolute;
+	top:0px;
+	left:51px;
+	width:606px;
+	min-height:99px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#00bfff;/*test*/
+}
+.akt_right{
+	position:absolute;
+	top:0px;
+	left:657px;
+	width:49px;
+	min-height:99px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#baf;/*test*/
+}
+.akt_ohyb_UR{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:49px;
+	height:24px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#fab;/*test*/
+}
+.akt_right_stred{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:49px;
+	min-height:61px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#006378;/*test*/
+}
+.akt_ohyb_LR{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:49px;
+	height:14px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#007350;/*test*/
+}
+.akt_dole{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:706px;
+	height:38px;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	background-color:#00dead;/*test*/
+}
+.obsah{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:706px;
+	height:auto;
+	min-height:1250px;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	background-color:#beef00;/*test*/
+	clip:auto;
+}
