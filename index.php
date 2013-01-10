@@ -31,12 +31,10 @@ defined('_JEXEC') or die;
 					<div class="title">
 					</div><!--title-->
 					<div class="aktuality">
-						<div class="akt_nahore">
-						</div><!--akt_nahore-->
-						<div class="akt_stred">
-						</div><!--akt_stred-->
-						<div class="akt_dole">
-						</div><!--akt_dole-->
+						<div class="akt_nadpis">
+						</div><!--akt_nadpis-->
+						<div class="akt_obsah">
+						</div><!--akt_obsah-->
 					</div><!--aktuality-->
 					<div class="obsah">
 						<jdoc:include type="component" />
@@ -44,12 +42,10 @@ defined('_JEXEC') or die;
 				</div><!--left-->
 				<div class="right">
 					<div class="calendar">
-						<div class="cal_nahore">
-						</div><!--cal_nahore-->
-						<div class="cal_stred">
-						</div><!--cal_stred-->
-						<div class="cal_dole">
-						</div><!--cal_dole-->
+						<div class="cal_nadpis">
+						</div><!--cal_nadpis-->
+						<div class="cal_obsah">
+						</div><!--cal_obsah-->
 					</div><!--calendar-->
 					<div class="copyright">
 					</div><!--copyright-->

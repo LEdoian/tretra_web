@@ -115,7 +115,7 @@ body{
 	overflow:auto;
 	background-color:fuchsia;/*test*/
 }
-.akt_nahore{
+.akt_nadpis{
 	position:relative;
 	top:0px;
 	left:0px;
@@ -126,7 +126,7 @@ body{
 	overflow:auto;
 	background-color:gold;/*test*/
 }
-.akt_stred{
+.akt_obsah{
 	position:relative;
 	top:0px;
 	left:0px;
@@ -136,17 +136,6 @@ body{
 	margin:0px;
 	overflow:auto;
 	background-color:#00ff7f;/*test*/
-}
-.akt_dole{
-	position:relative;
-	top:0px;
-	left:0px;
-	width:706px;
-	height:38px;
-	padding:0px;
-	margin:0px;
-	overflow:auto;
-	background-color:#00dead;/*test*/
 }
 .obsah{
 	position:relative;
