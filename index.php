@@ -34,24 +34,6 @@ defined('_JEXEC') or die;
 						<div class="akt_nahore">
 						</div><!--akt_nahore-->
 						<div class="akt_stred">
-							<div class="akt_left">
-								<div class="akt_ohyb_UL">
-								</div><!--akt_ohyb_UL-->
-								<div class="akt_left_stred">
-								</div><!--akt_left_stred-->
-								<div class="akt_ohyb_LL">
-								</div><!--akt_ohyb_LL-->
-							</div><!--akt_left-->
-							<div class="akt_obsah">
-							</div><!--akt_obsah-->
-							<div class="akt_right">
-								<div class="akt_ohyb_UR">
-								</div><!--akt_ohyb_UR-->
-								<div class="akt_right_stred">
-								</div><!--akt_right_stred-->
-								<div class="akt_ohyb_LR">
-								</div><!--akt_ohyb_LR-->
-							</div><!--akt_right-->
 						</div><!--akt_stred-->
 						<div class="akt_dole">
 						</div><!--akt_dole-->
@@ -65,24 +47,6 @@ defined('_JEXEC') or die;
 						<div class="cal_nahore">
 						</div><!--cal_nahore-->
 						<div class="cal_stred">
-							<div class="cal_left">
-								<div class="cal_ohyb_UL">
-								</div><!--cal_ohyb_UL-->
-								<div class="cal_left_stred">
-								</div><!--cal_left_stred-->
-								<div class="cal_ohyb_LL">
-								</div><!--cal_ohyb_LL-->
-							</div><!--cal_left-->
-							<div class="cal_obsah">
-							</div><!--cal_obsah-->
-							<div class="cal_right">
-								<div class="cal_ohyb_UR">
-								</div><!--cal_ohyb_UR-->
-								<div class="cal_right_stred">
-								</div><!--cal_right_stred-->
-								<div class="cal_ohyb_LR">
-								</div><!--cal_ohyb_LR-->
-							</div><!--cal_right-->
 						</div><!--cal_stred-->
 						<div class="cal_dole">
 						</div><!--cal_dole-->
