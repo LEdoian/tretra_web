@@ -4,7 +4,6 @@ body{
 .all{
 	margin:auto;
 	width:1000px;/*Is it enough?*/
-	height:auto;
 	padding:0px;
 }
 .header{
