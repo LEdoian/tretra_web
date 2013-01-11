@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 		<div class="all">
 			<div class="header">
 				<img class="logo" alt="Logo" /><!--The image isn't made yet-->
-				<span> class="title">
+				<span class="title">
 				</span><!--title-->
 			</div><!--header-->
 			<div class="login">
