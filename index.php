@@ -12,10 +12,14 @@ defined('_JEXEC') or die;
 	<body>
 		<div class="all">
 			<div class="header">
-				<div class="logo">
+				<img class="logo" alt="Logo" /><!--The image isn't made yet-->
 				</div><!--logo-->
-				<div class="login">
-				</div><!--login-->
+				<span> class="title">
+				</span><!--title-->
+			</div><!--header-->
+			<div class="login">
+			</div><!--login-->
+			<div class="r_panel">
 				<div class="menu">
 					<!--testing list-->
 					<ul>
@@ -25,32 +29,26 @@ defined('_JEXEC') or die;
 						<li>Nashledanou</li>
 					</ul>
 				</div><!--menu-->
-			</div><!--header-->
-			<div class="content">
-				<div class="left">
-					<div class="title">
-					</div><!--title-->
-					<div class="aktuality">
-						<div class="akt_nadpis">
-						</div><!--akt_nadpis-->
-						<div class="akt_obsah">
-						</div><!--akt_obsah-->
-					</div><!--aktuality-->
-					<div class="obsah">
-						<jdoc:include type="component" />
-					</div><!--obsah-->
-				</div><!--left-->
-				<div class="right">
-					<div class="calendar">
-						<div class="cal_nadpis">
-						</div><!--cal_nadpis-->
-						<div class="cal_obsah">
-						</div><!--cal_obsah-->
-					</div><!--calendar-->
-					<div class="copyright">
-					</div><!--copyright-->
-				</div><!--right-->
-			</div><!--content-->
+				<div class="calendar">
+					<div class="cal_nadpis">
+					</div><!--cal_nadpis-->
+					<div class="cal_obsah">
+					</div><!--cal_obsah-->
+				</div><!--calendar-->
+			</div><!--r_panel-->
+			<div class="main">
+				<div class="aktuality">
+					<div class="akt_nadpis">
+					</div><!--akt_nadpis-->
+					<div class="akt_obsah">
+					</div><!--akt_obsah-->
+				</div><!--aktuality-->
+				<div class="obsah">
+					<jdoc:include type="component" />
+				</div><!--obsah-->
+			</div><!--main-->
+			<div class="footer">
+ 			</div><!--footer-->
 		</div><!--all-->
 	</body>
 </html>

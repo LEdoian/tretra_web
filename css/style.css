@@ -3,39 +3,27 @@ body{
 }
 .all{
 	margin:auto;
-	width:1000px;
+	width:1000px;/*Is it enough?*/
 	height:auto;
-	min-height:2000px;
 	padding:0px;
-	overflow:auto;
-	background-color:aqua;/*test*/
-	clip:auto;
 }
 .header{
-	position:relative;
-	left:0px;
-	top:0px;
-	width:1000px;
-	height:444px;
-	/*min-height:444px;*/
-	padding:0px;
+	float:none;
+	width:706px;
 	margin:0px;
-	overflow:auto;
-	background-color:blue;/*test*/
+	padding:0px;
 }
 .logo{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:706px;
-	height:444px;
+	width:100%;
 	padding:0px;
 	margin:0px;
-	z-index:1;
-	overflow:auto;
-	background-color:yellow;/*test*/
 }
-.login{
+.title{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.login{/*Not sure about this*/
 	position:absolute;
 	left:646px;
 	top:0px;
@@ -43,110 +31,79 @@ body{
 	height:52px;
 	padding:0px;
 	margin:0px;
-	z-index:2;
-	overflow:auto;
-	background-color:lime;/*test*/
+	z-index:1;
+}
+.r_panel{
+	float:right;
+	width:294px;
+	margin:0px;
+	padding:0px;
 }
 .menu{
-	position:absolute;
-	left:706px;
-	top:52px;
-	width:294px;
-	min-height:392px;
+	width:100%;
 	padding:0px;
 	margin:0px;
-	z-index:2;
-	overflow:auto;
-	background-color:red;/*test*/
 }
 	.menu ul li{
-		background-color:navy;/*test*/
 		text-align:right;
-		list-style-type:none;
-		overflow:auto;
+		list-style-type:circle;
 	}
-.content{
-	position:relative;
-	left:0px;
-	top:0px;
-	margin:auto;
-	padding:0px;
-	width:1000px;
-	height:auto;
-	min-height:1750px;
-	overflow:auto;
-	background-color:orange;/*test*/
-	clip:auto;
-}
-.left{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:706px;
-	height:auto;
-	min-height:1500px;
-	/*width:706px;*/
-	/*min-height:1000px;*/
+.calendar{
+	width:100%;
 	padding:0px;
 	margin:0px;
-	overflow:auto;
-	background-color:purple;/*test*/
-	clip:auto;
+	/*background-image:;
+	background-repeat:repeat-y;*/
 }
-.title{
-	position:relative;
-	left:0px;
-	top:0px;
+.cal_nadpis{
+	width:100%;
+	/*margin:;
+	padding:;
+	background-image:;
+	background-repeat:no-repeat;*/
+}
+.cal_obsah{
+	width:100%;
+	/*margin:;
+	padding:;
+	background-image:;
+	background-repeat:no-repeat;*/
+}
+.main{
+	float:left;
 	width:706px;
-	min-height:48px;
 	padding:0px;
 	margin:0px;
-	overflow:auto;
-	background-color:brown;/*test*/
 }
 .aktuality{
-	position:relative;
-	left:0px;
-	top:0px;
-	width:706px;
-	min-height:206px;
+	width:100%;
 	padding:0px;
 	margin:0px;
-	overflow:auto;
-	background-color:fuchsia;/*test*/
+	/*background-image:;
+	background-repeat:repeat-y;*/
 }
 .akt_nadpis{
-	position:relative;
-	top:0px;
-	left:0px;
-	width:706px;
-	height:69px;
-	padding:0px;
-	margin:0px;
-	overflow:auto;
-	background-color:gold;/*test*/
+	width:100%;
+	/*margin:;
+	padding:;
+	background-image:;
+	background-repeat:no-repeat;*/
 }
 .akt_obsah{
-	position:relative;
-	top:0px;
-	left:0px;
-	width:706px;
-	min-height:99px;
-	padding:0px;
-	margin:0px;
-	overflow:auto;
-	background-color:#00ff7f;/*test*/
+	width:100%;
+	/*margin:;
+	padding:;
+	background-image:;
+	background-repeat:no-repeat;*/
 }
 .obsah{
-	position:relative;
-	top:0px;
-	left:0px;
-	width:706px;
-	height:auto;
-	min-height:1250px;
+	width:100%;
+	/*margin:;
+	padding:;*/
+}
+.footer{
+	float:right;
+	width:294px;
 	margin:0px;
 	padding:0px;
-	overflow:auto;
-	background-color:#beef00;/*test*/
-	clip:auto;
 }
