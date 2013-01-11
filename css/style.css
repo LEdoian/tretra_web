@@ -23,21 +23,16 @@ body{
 	padding:0px;
 	margin:0px;
 }
-.login{/*Not sure about this*/
-	position:absolute;
-	left:646px;
-	top:0px;
-	width:354px;
-	height:52px;
-	padding:0px;
-	margin:0px;
-	z-index:1;
-}
 .r_panel{
 	float:right;
 	width:294px;
 	margin:0px;
 	padding:0px;
+}
+.login{
+	width:100%;
+	padding:0px;
+	margin:0px;
 }
 .menu{
 	width:100%;

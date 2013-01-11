@@ -16,9 +16,9 @@ defined('_JEXEC') or die;
 				<span class="title">
 				</span><!--title-->
 			</div><!--header-->
-			<div class="login">
-			</div><!--login-->
 			<div class="r_panel">
+				<div class="login">
+				</div><!--login-->
 				<div class="menu">
 					<!--testing list-->
 					<ul>
