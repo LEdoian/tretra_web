@@ -1,5 +1,6 @@
 body{
 	background-image:url(bg.png);
+	font-family:"Verdana", Helvetica, sans-serif;
 }
 .all{
 	margin:auto;
@@ -23,7 +24,6 @@ body{
 	margin:0px;
 	text-transform:uppercase;
 	color:green;
-	font-family:"Verdana", Helvetica, sans-serif;
 	text-align:center;
 	font-size:30px;
 }
@@ -45,7 +45,7 @@ body{
 }
 	.menu ul li{
 		text-align:right;
-		list-style-type:circle;
+		list-style-type:none;
 	}
 .calendar{
 	width:100%;
