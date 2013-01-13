@@ -14,6 +14,7 @@ defined('_JEXEC') or die;
 			<div class="header">
 				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png" />
 				<span class="title">
+					This is example text!
 				</span><!--title-->
 			</div><!--header-->
 			<div class="r_panel">

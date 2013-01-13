@@ -21,6 +21,10 @@ body{
 	width:100%;
 	padding:0px;
 	margin:0px;
+	text-transform:uppercase;
+	color:green;
+	font-family:"Verdana", Helvetica, sans-serif;
+	text-align:center;
 }
 .r_panel{
 	float:right;
