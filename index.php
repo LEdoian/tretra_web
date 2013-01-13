@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 	<body>
 		<div class="all">
 			<div class="header">
-				<img class="logo" alt="Logo" /><!--The image isn't made yet-->
+				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png" />
 				<span class="title">
 				</span><!--title-->
 			</div><!--header-->
