@@ -42,10 +42,18 @@ body{
 	width:100%;
 	padding:0px;
 	margin:0px;
+	background-image:url(menu-cara.png);
+	background-repeat:repeat-y;
+	background-position:250px 0px;
 }
 	.menu ul li{
+		padding:9px;
+		padding-right:53px;
 		text-align:right;
 		list-style-type:none;
+		background-image:url(kolecko.png);
+		background-repeat:no-repeat;
+		background-position:250px 9px;
 	}
 .calendar{
 	width:100%;
