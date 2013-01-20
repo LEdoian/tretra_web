@@ -42,18 +42,16 @@ body{
 	width:100%;
 	padding:0px;
 	margin:0px;
-	background-image:url(menu-cara.png);
-	background-repeat:repeat-y;
-	background-position:250px 0px;
 }
 	.menu ul li{
-		padding:9px;
-		padding-right:53px;
+		height:48px;
+		width:264px;
+		padding-right:36px;
 		text-align:right;
 		list-style-type:none;
 		background-image:url(kolecko.png);
 		background-repeat:no-repeat;
-		background-position:250px 9px;
+		background-position:right center;
 	}
 .calendar{
 	width:100%;
@@ -91,10 +89,14 @@ body{
 }
 .akt_nadpis{
 	width:100%;
-	/*margin:;
-	padding:;
-	background-image:;
-	background-repeat:no-repeat;*/
+	margin:0px;
+	padding-top:26px;
+	padding-left:23px;
+	background-image:url(akt_nadpis.png);
+	background-repeat:no-repeat;
+	color:#c5062f;
+	text-transform:capitalize;
+	font-size:25px;
 }
 .akt_obsah{
 	width:100%;

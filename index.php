@@ -39,6 +39,7 @@ defined('_JEXEC') or die;
 			<div class="main">
 				<div class="aktuality">
 					<div class="akt_nadpis">
+						Aktuality
 					</div><!--akt_nadpis-->
 					<div class="akt_obsah">
 					</div><!--akt_obsah-->
