@@ -42,6 +42,8 @@ defined('_JEXEC') or die;
 						Aktuality
 					</div><!--akt_nadpis-->
 					<div class="akt_obsah">
+						Lorem ipsum dolor sit amet
+						<br />29.13.2019 Trololo! - buzolu s sebou...
 					</div><!--akt_obsah-->
 				</div><!--aktuality-->
 				<div class="obsah">
