@@ -86,6 +86,7 @@ body{
 /*	padding:0px;*/
 	background-image:url(aktuality.png);
 	background-repeat:repeat-y;
+	background-position:left center;
 }
 .akt_nadpis{
 /*	width:100%;*/
@@ -94,7 +95,7 @@ body{
 	padding-left:230px;
 	background-image:url(akt_nadpis.png);
 	background-repeat:no-repeat;
-	background-position:top;
+	background-position:left top;
 	color:#c5062f;
 	text-transform:capitalize;
 	font-size:25px;
@@ -106,7 +107,7 @@ body{
 	padding-bottom:37px;
 	background-image:url(akt_obsah.png);
 	background-repeat:no-repeat;
-	background-position:bottom;
+	background-position:left bottom;
 	color:#006cda;
 	font-size:20px;
 }
