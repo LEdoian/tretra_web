@@ -92,7 +92,7 @@ body{
 /*	width:100%;*/
 	margin:0px;
 	padding-top:26px;
-	padding-left:230px;
+	padding-left:23px;
 	background-image:url(akt_nadpis.png);
 	background-repeat:no-repeat;
 	background-position:left top;
@@ -103,13 +103,13 @@ body{
 .akt_obsah{
 /*	width:100%;*/
 	margin:0px;
-	padding-left:230px;
+	padding-left:23px;
 	padding-bottom:37px;
 	background-image:url(akt_obsah.png);
 	background-repeat:no-repeat;
 	background-position:left bottom;
 	color:#006cda;
-	font-size:20px;
+	font-size:18px;
 }
 .obsah{
 	width:100%;
