@@ -31,8 +31,11 @@ defined('_JEXEC') or die;
 				</div><!--menu-->
 				<div class="calendar">
 					<div class="cal_nadpis">
+						Závody
 					</div><!--cal_nadpis-->
 					<div class="cal_obsah">
+						16.68.1543 Houštka B
+						<br /> 13.14.5469 Máchovo jezero - Holínky s sebou
 					</div><!--cal_obsah-->
 				</div><!--calendar-->
 			</div><!--r_panel-->
