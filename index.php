@@ -37,6 +37,8 @@ defined('_JEXEC') or die;
 						16.68.1543 Houštka B
 						<br /> 13.14.5469 Máchovo jezero - Holínky s sebou
 					</div><!--cal_obsah-->
+					<div class="cal_patka">
+					</div><!--cal_patka-->
 				</div><!--calendar-->
 			</div><!--r_panel-->
 			<div class="main">

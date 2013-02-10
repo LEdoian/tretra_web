@@ -44,33 +44,35 @@ body{
 	padding:0px;
 	margin:0px;
 }
-	.menu ul li{
-		height:48px;
-		width:264px;
-		padding-right:36px;
-		text-align:right;
-		list-style-type:none;
-		background-image:url('kolecko.png');
-		background-repeat:no-repeat;
-		background-position:right center;
+	.menu ul{
+		list-style-position:inside;
 	}
+		.menu ul li{
+			height:48px;
+			width:264px;
+			padding:0px;
+			margin-right:36px;
+			text-align:right;
+			list-style-type:none;
+			background-image:url('kolecko.png');
+			background-repeat:no-repeat;
+			background-position:right center;
+		}
 .calendar{
 /*	width:100%;*/
 	margin:0px;
 /*	padding:0px;*/
-	background-image:url('calendar.png');
-	background-repeat:repeat-y;
-	background-position:left center;
+	text-align:right;
+	float:right;
 }
 .cal_nadpis{
 /*	width:100%;*/
 	margin:0px;
 	padding-top:103px;
-	padding-left:23px;
+	padding-right:23px;
 	background-image:url('cal_nadpis.png');
 	background-repeat:no-repeat;
-	background-position:left top;
-	text-align:right;
+	background-position:right top;
 	color:#0e6b50;
 	text-transform:uppercase;
 	font-size:25px;
@@ -78,13 +80,21 @@ body{
 .cal_obsah{
 /*	width:100%;*/
 	margin:0px;
-	padding-left:23px;
+	padding-right:23px;
 	padding-bottom:26px;
-	background-image: url('cal_obsah.png');
-	background-repeat:no-repeat;
-	background-position:left bottom;
 	color:#0076ca;
 	font-size:18px;
+	background-image:url('cal_obsah.png');
+	background-repeat:repeat-y;
+	background-position:right center;
+}
+.cal_patka{
+	margin:0px;
+	padding-right:23px;
+	padding-bottom:24px;
+	background-image: url('cal_patka.png');
+	background-repeat:no-repeat;
+	background-position:right bottom;
 }
 .main{
 	float:left;
