@@ -50,6 +50,8 @@ defined('_JEXEC') or die;
 						Lorem ipsum dolor sit amet
 						<br />29.13.2019 Trololo! - buzolu s sebou...
 					</div><!--akt_obsah-->
+					<div class="akt_patka">
+					</div><!--akt_patka-->
 				</div><!--aktuality-->
 				<div class="obsah">
 					<jdoc:include type="component" />
