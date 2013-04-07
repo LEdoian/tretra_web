@@ -6,13 +6,13 @@ defined('_JEXEC') or die;
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>">
 	<head>
-		<jdoc:include type="head" />
-		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" type="text/css" />
+		<jdoc:include type="head">
+		<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" type="text/css">
 	</head>
 	<body>
 		<div class="all">
 			<div class="header">
-				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png" />
+				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png">
 				<p class="title">
 					This is example text!
 				</p><!--title-->
@@ -34,8 +34,8 @@ defined('_JEXEC') or die;
 						Závody
 					</div><!--cal_nadpis-->
 					<div class="cal_obsah">
-						16.68.1543 Houštka B
-						<br /> 13.14.5469 Máchovo jezero - Holínky s sebou
+						Lol l o l ll oo l o l o l o l o l o l o l o l o l o l o l o l
+						<br>Trololololololololololololololololololololololololololololololololololololol
 					</div><!--cal_obsah-->
 					<div class="cal_patka">
 					</div><!--cal_patka-->
@@ -54,7 +54,7 @@ defined('_JEXEC') or die;
 					</div><!--akt_patka-->
 				</div><!--aktuality-->
 				<div class="obsah">
-					<jdoc:include type="component" />
+					<jdoc:include type="component">
 				</div><!--obsah-->
 			</div><!--main-->
 			<div class="footer">
