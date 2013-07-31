@@ -46,6 +46,8 @@ body{
 }
 	.menu ul{
 		list-style-position:inside;
+		margin-top:0px;
+		margin-bottom:0px;
 	}
 		.menu ul li{
 			height:48px;
@@ -79,15 +81,22 @@ body{
 	font-size:25px;
 }
 .cal_obsah{
-	/*width:200px;*/
+	width:211px;
 	margin:0px;
 	padding-right:23px;
+	padding-left:20px;
 	padding-bottom:26px;
 	color:#0076ca;
 	font-size:18px;
 	background-image:url('cal_obsah.png');
 	background-repeat:repeat-y;
 	background-position:right center;
+}
+.cal_obsah p{
+	margin-top:0px;
+	padding-top:18px;
+	margin-bottom:0px;
+	padding-bottom:18px;
 }
 .cal_patka{
 	margin:0px;

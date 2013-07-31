@@ -34,8 +34,8 @@ defined('_JEXEC') or die;
 						Závody
 					</div><!--cal_nadpis-->
 					<div class="cal_obsah">
-						Lol l o l ll oo l o l o l o l o l o l o l o l o l o l o l o l
-						<br>Trololololololololololololololololololololololololololololololololololololol
+ 						<p>15.9.2013 Houšťka - bude pršet, vezměte si pláštěnku</p>
+ 						<p>19.4.2015 Hostivařská přehrada - bude opět pršet, vezměte si holínky</p>
 					</div><!--cal_obsah-->
 					<div class="cal_patka">
 					</div><!--cal_patka-->
