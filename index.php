@@ -47,7 +47,7 @@ defined('_JEXEC') or die;
 					</div><!--akt_patka-->
 				</div><!--aktuality-->
 				<div class="obsah">
-					<jdoc:include type="component">
+					<jdoc:include type="component" />
 				</div><!--obsah-->
 			</div><!--main-->
 			<div class="footer">
