@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template" client="site">
-        <name>Tretra</name>
-        <creationDate>30.12.2012</creationDate>
-        <author>TAP9701</author>
-        <authorEmail>tap9701@gmail.com</authorEmail>
-        <authorUrl>http://ledoian.bluefile.cz</authorUrl>
-        <copyright>None</copyright>
-        <license>CC 3.0 Atribution</license>
-        <version>0.0.1</version>
-        <description>Template for Tretra Praha</description>
-        <files>
-                <filename>index.php</filename>
-                <filename>templateDetails.xml</filename>
-		<folder>css</folder>
-        </files>
+		<name>Tretra</name>
+		<creationDate>1.1.2013</creationDate>
+		<author>TAP9701</author>
+		<authorEmail>tap9701@gmail.com</authorEmail>
+		<authorUrl>http://ledoian.bluefile.cz</authorUrl>
+		<copyright>Tretra Praha 2013</copyright>
+		<license>CC 3.0 Atribution</license>
+		<version>1.0</version>
+		<description>Template for Tretra Praha</description>
+		<files>
+			<filename>index.php</filename>
+			<filename>templateDetails.xml</filename>
+			<folder>css</folder>
+		</files>
+		<positions>
+			<position>napis</position>
+			<position>menu</position>
+			<position>cal_nadpis</position>
+			<position>cal_obsah</position>
+			<position>akt_nadpis</position>
+			<position>akt_obsah</position>
+			<position>footer</position>
+		</positions>
 </extension>

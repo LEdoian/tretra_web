@@ -14,29 +14,22 @@ defined('_JEXEC') or die;
 			<div class="header">
 				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png">
 				<p class="title">
-					This is example text!
+					<jdoc:include type="modules" name="napis" />
 				</p><!--title-->
 			</div><!--header-->
 			<div class="r_panel">
 				<div class="login">
 				</div><!--login-->
 				<div class="menu">
-					<!--testing list-->
-					<ul>
-						<li>První</li>
-						<li>Ahoj</li>
-						<li>Lorem Ipsum</li>
-						<li>Nashledanou</li>
-					</ul>
+					<jdoc:include type="modules" name="menu" /> 
 				</div><!--menu-->
 				<div class="calendar">
 					<div class="cal_nadpis">
-						Závody
+						<jdoc:include type="modules" name="cal_nadpis" /> 
 					</div><!--cal_nadpis-->
 					<div class="cal_obsah">
- 						<p>15.9.2013 Houšťka - bude pršet, vezměte si pláštěnku</p>
- 						<p>19.4.2015 Hostivařská přehrada - bude opět pršet, vezměte si holínky</p>
-					</div><!--cal_obsah-->
+						<jdoc:include type="modules" name="cal_obsah" /> 
+ 					</div><!--cal_obsah-->
 					<div class="cal_patka">
 					</div><!--cal_patka-->
 				</div><!--calendar-->
@@ -44,11 +37,10 @@ defined('_JEXEC') or die;
 			<div class="main">
 				<div class="aktuality">
 					<div class="akt_nadpis">
-						Aktuality
+						<jdoc:include type="modules" name="akt_nadpis" /> 
 					</div><!--akt_nadpis-->
 					<div class="akt_obsah">
-						Lorem ipsum dolor sit amet
-						<br />29.13.2019 Trololo! - buzolu s sebou...
+						<jdoc:include type="modules" name="akt_obsah" /> 
 					</div><!--akt_obsah-->
 					<div class="akt_patka">
 					</div><!--akt_patka-->
@@ -58,6 +50,7 @@ defined('_JEXEC') or die;
 				</div><!--obsah-->
 			</div><!--main-->
 			<div class="footer">
+				<jdoc:include type="modules" name="footer" /> 
  			</div><!--footer-->
 		</div><!--all-->
 	</body>
