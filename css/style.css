@@ -52,8 +52,7 @@ body{
 		.menu ul li{
 			height:48px;
 			width:264px;
-			padding:0px;
-			margin-right:36px;
+			padding-right:36px;
 			text-align:right;
 			list-style-type:none;
 			background-image:url('kolecko.png');
