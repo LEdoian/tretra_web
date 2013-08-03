@@ -16,6 +16,7 @@
 		</files>
 		<positions>
 			<position>napis</position>
+			<position>login</position>
 			<position>menu</position>
 			<position>cal_nadpis</position>
 			<position>cal_obsah</position>
