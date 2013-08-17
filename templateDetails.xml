@@ -22,6 +22,7 @@
 			<position>cal_obsah</position>
 			<position>akt_nadpis</position>
 			<position>akt_obsah</position>
+			<position>zde_se_nachazite</position>
 			<position>footer</position>
 		</positions>
 </extension>

@@ -39,10 +39,14 @@ body{
 	padding:0px;
 	margin:0px;
 }
+.login ul{
+	display:none;
+}
 .menu{
 	width:100%;
 	padding:0px;
 	margin:0px;
+	margin-left:6px;
 }
 	.menu ul{
 		list-style-position:inside;
@@ -50,14 +54,15 @@ body{
 		margin-bottom:0px;
 	}
 		.menu ul li{
-			height:48px;
-			width:264px;
-			padding-right:36px;
+			height:64px;
+			width:254px;
+			padding-right:45px;
 			text-align:right;
 			list-style-type:none;
 			background-image:url('kolecko.png');
 			background-repeat:no-repeat;
 			background-position:right center;
+			font-size:40px;
 		}
 .calendar{
 /*	width:100%;*/
@@ -68,7 +73,7 @@ body{
 }
 .cal_nadpis{
 /*	width:100%;*/
-	/*height:162px;*/
+	height:30px;
 	margin:0px;
 	padding-top:103px;
 	padding-right:23px;
@@ -79,17 +84,23 @@ body{
 	text-transform:uppercase;
 	font-size:25px;
 }
+.cal_nadpis p{
+	margin:0px;
+}
 .cal_obsah{
 	width:211px;
 	margin:0px;
 	padding-right:23px;
 	padding-left:20px;
-	padding-bottom:26px;
+/* 	padding-bottom:26px; */
 	color:#0076ca;
 	font-size:18px;
 	background-image:url('cal_obsah.png');
 	background-repeat:repeat-y;
 	background-position:right center;
+}
+.cal_obsah p{
+	margin:0px;
 }
 .cal_obsah p{
 	margin-top:0px;
@@ -118,8 +129,7 @@ body{
 	text-align:left;
 }
 .akt_nadpis{
-/*	width:100%;*/
-	/*height:53px;*/
+	height:30px;
 	margin:0px;
 	padding-top:20px;
 	padding-left:23px;
@@ -130,16 +140,22 @@ body{
 	text-transform:capitalize;
 	font-size:25px;
 }
+.akt_nadpis p{
+	margin:0px;
+}
 .akt_obsah{
 	/*width:200px;*/
 	margin:0px;
 	padding-left:23px;
-	padding-bottom:37px;
+	/*padding-bottom:37px;*/
 	color:#006cda;
 	font-size:18px;
 	background-image:url('akt_obsah.png');
 	background-repeat:repeat-y;
 	background-position:left center;
+}
+.akt_obsah p{
+	margin:0px;
 }
 .akt_patka{
 	margin:0px;
