@@ -13,21 +13,24 @@ body{
 	width:706px;
 	margin:0px;
 	padding:0px;
+	margin-bottom:10px;
 }
 .logo{
 	width:100%;
 	padding:0px;
 	margin:0px;
 }
-.title{
-	width:100%;
-	padding:0px;
-	margin:0px;
-	text-transform:uppercase;
-	color:green;
-	text-align:center;
-	font-size:30px;
-}
+	.header p{
+		width:100%;
+		padding:0px;
+		margin:0px;
+		text-transform:uppercase;
+		color:green;
+		text-align:center;
+		font-size:30px;
+		height:30px;
+		overflow:hidden;
+	}
 .r_panel{
 	float:right;
 	width:294px;
@@ -38,6 +41,7 @@ body{
 	width:100%;
 	padding:0px;
 	margin:0px;
+	text-align:right;
 }
 .login ul{
 	display:none;
@@ -54,7 +58,7 @@ body{
 		margin-bottom:0px;
 	}
 		.menu ul li{
-			height:64px;
+			height:56px;
 			width:254px;
 			padding-right:45px;
 			text-align:right;
@@ -62,8 +66,15 @@ body{
 			background-image:url('kolecko.png');
 			background-repeat:no-repeat;
 			background-position:right center;
-			font-size:40px;
 		}
+				.menu ul li a{
+				font-size:32px;
+				color:red;
+				text-decoration:none;
+			}
+				.menu ul li a:active, .menu ul li a:hover{
+					border-bottom:2px dashed;
+				}
 .calendar{
 /*	width:100%;*/
 	margin:0px;
@@ -170,6 +181,19 @@ body{
 	/*margin:;
 	padding:;*/
 }
+	.obsah dl, .obsah ul{
+		display:none;
+	}
+	.obsah h1, .obsah h2{
+		text-align:center;
+		text-decoration:none;
+	}
+		.obsah a{
+			text-decoration:none;
+		}
+			.obsah a:active, .obsah a:hover{
+				border-bottom:2px dashed;
+			}
 .footer{
 	float:right;
 	width:294px;

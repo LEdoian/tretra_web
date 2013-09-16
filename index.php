@@ -13,9 +13,7 @@ defined('_JEXEC') or die;
 		<div class="all">
 			<div class="header">
 				<img class="logo" alt="Logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/logo.png">
-				<p class="title">
-					<jdoc:include type="modules" name="napis" />
-				</p><!--title-->
+				<jdoc:include type="modules" name="napis" />
 			</div><!--header-->
 			<div class="r_panel">
 				<div class="login">
