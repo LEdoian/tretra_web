@@ -75,7 +75,19 @@ body{
 				.menu ul li a:active, .menu ul li a:hover{
 					border-bottom:2px dashed;
 				}
+.menu_patka{
+	width:254px;
+	height:49px;
+	padding:0px;
+	margin:0px;
+	background-image:url('menu_patka.png');
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding-right:45px;
+	margin-left:6px;
+}
 .calendar{
+	visibility:hidden; /*Temp before removal*/
 /*	width:100%;*/
 	margin:0px;
 /*	padding:0px;*/

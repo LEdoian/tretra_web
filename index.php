@@ -20,7 +20,9 @@ defined('_JEXEC') or die;
 					<jdoc:include type="modules" name="login" />
 				</div><!--login-->
 				<div class="menu">
-					<jdoc:include type="modules" name="menu" /> 
+					<jdoc:include type="modules" name="menu" />
+					<div class="menu_patka">
+					</div><!--menu_patka-->
 				</div><!--menu-->
 				<div class="calendar">
 					<div class="cal_nadpis">
